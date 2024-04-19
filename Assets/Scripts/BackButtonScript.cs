@@ -9,7 +9,6 @@ public class BackButtonScript : MonoBehaviour
 
     public void TurnPopUpOn()
     {
-        //warningPopUp.SetActive(true);
         Instantiate(warningPopUp, canvas.transform);
     }
 
